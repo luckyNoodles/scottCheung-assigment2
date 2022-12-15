@@ -1,0 +1,21 @@
+@use "variables" as *;
+
+.wrapper {
+    max-width: 1440px;
+    width: 80%;
+    margin: 0 auto;
+}
+li {
+    list-style: none;
+}
+button {
+    background-color: $accent;
+    padding: 10px 20px;
+}
+button:hover,
+button:focus {
+    border: 3px solid $pine;
+}
+.matContainer {
+    position: relative;
+}
