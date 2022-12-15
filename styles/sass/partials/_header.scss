@@ -6,7 +6,7 @@ header {
     margin: -20px;
 }
 .indexHeader {
-    height: 850px;
+    height: 750px;
 }
 .headingContainer {
     display: flex;
@@ -29,11 +29,11 @@ header {
     }
 }
 .headerImageContainer {
-    width: 500px;
-    height: 700px;
+    width: 400px;
+    // height: 700px;
     position: absolute;
     right: 0px;
-    top: 75px;
+    top: 90px;
     z-index: 2;
     img {
         width: 100%;
@@ -41,11 +41,11 @@ header {
 }
 .image1Mat {
     background-color: white;
-    width: 500px;
-    height: 700px;
+    width: 400px;
+    height: 565px;
     position: absolute;
     right: -20px;
-    top: 90px;
+    top: 110px;
     z-index: 1;
 }
 /* Blog and Contact Header Styles */

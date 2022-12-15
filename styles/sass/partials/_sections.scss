@@ -38,7 +38,7 @@ footer {
 }
 .image2Mat,
 .image3Mat {
-    width: 800px;
+    width: 760px;
     height: 400px;
     position: absolute;
     z-index: 1;
@@ -50,8 +50,8 @@ footer {
 }
 .image3Mat {
     background-color: $pine;
-    top: -250px;
-    right: -160px;
+    top: -340px;
+    right: -225px;
 }
 .bridgeImageContainer {
     position: relative;
@@ -66,8 +66,8 @@ footer {
     position: relative;
     img {
         position: absolute;
-        top: 80px;
-        right: 20px;
+        top: 20px;
+        right: -80px;
         z-index: 2;
     } 
 }

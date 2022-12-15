@@ -290,6 +290,621 @@ a {
   text-decoration: none;
 }
 
+.wrapper {
+  max-width: 1440px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: #e4a436;
+  padding: 10px 20px;
+}
+
+button:hover,
+button:focus {
+  border: 3px solid #345231;
+}
+
+.matContainer {
+  position: relative;
+}
+
+header {
+  background-color: #345231;
+  margin: -20px;
+}
+
+.indexHeader {
+  height: 750px;
+}
+
+.headingContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  height: 650px;
+}
+.headingContainer h1 {
+  padding-left: 130px;
+}
+
+.circleContainer {
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  top: 235px;
+  left: 70px;
+}
+.circleContainer img {
+  width: 123px;
+}
+
+.headerImageContainer {
+  width: 400px;
+  position: absolute;
+  right: 0px;
+  top: 90px;
+  z-index: 2;
+}
+.headerImageContainer img {
+  width: 100%;
+}
+
+.image1Mat {
+  background-color: white;
+  width: 400px;
+  height: 565px;
+  position: absolute;
+  right: -20px;
+  top: 110px;
+  z-index: 1;
+}
+
+/* Blog and Contact Header Styles */
+.blogHeaderBody {
+  background-image: url(../assets/blog-image-1.jpg);
+}
+
+.contactHeaderBody {
+  background-image: url(../assets/contact-image-1.jpg);
+}
+
+.blogHeaderBody,
+.contactHeaderBody {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.blogHeaderBody h1,
+.contactHeaderBody h1 {
+  font-size: 4.3rem;
+  margin-bottom: 15px;
+}
+
+nav {
+  background-color: #345231;
+}
+
+#expandNav {
+  visibility: hidden;
+}
+
+.navFlexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0px 10px 0px;
+}
+.navFlexContainer li {
+  margin: 20px 20px;
+}
+.navFlexContainer li a:hover {
+  color: #e4a436;
+}
+.navFlexContainer li h2 {
+  font-size: 1.8rem;
+  color: #f6f6f6;
+  margin: 0px 15px;
+}
+.navFlexContainer li h2:hover {
+  color: #e4a436;
+}
+
+/* Section Who Is Willow */
+.whoSection,
+.journey,
+footer {
+  background-color: #f6f6f6;
+  position: relative;
+}
+
+/* Section Who Is Willow */
+.whoIsWillow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 450px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* favourite things and Bucket List*/
+.favouriteBucket {
+  height: 800px;
+}
+
+.favouriteBucket,
+.yellowHouse,
+.threeGallery {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.thingsList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.image2Container,
+.image3Container,
+.favouriteThings,
+.bucketList {
+  width: 50%;
+  height: 50%;
+}
+
+.image2Mat,
+.image3Mat {
+  width: 760px;
+  height: 400px;
+  position: absolute;
+  z-index: 1;
+}
+
+.image2Mat {
+  background-color: #709b6b;
+  top: -20px;
+  left: -160px;
+}
+
+.image3Mat {
+  background-color: #345231;
+  top: -340px;
+  right: -225px;
+}
+
+.bridgeImageContainer {
+  position: relative;
+}
+.bridgeImageContainer img {
+  position: absolute;
+  top: -40px;
+  left: -20px;
+  z-index: 1;
+}
+
+.lillyImageContainer {
+  position: relative;
+}
+.lillyImageContainer img {
+  position: absolute;
+  top: 20px;
+  right: -80px;
+  z-index: 2;
+}
+
+.favouriteThings {
+  padding: 70px 10px 5px 90px;
+}
+
+.bucketList {
+  padding-right: 130px;
+  padding-top: 50px;
+  text-align: right;
+}
+.bucketList button {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+/* journey section*/
+.journey {
+  height: 500px;
+  z-index: 0;
+}
+
+.journeyContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.journeyImageContainer img {
+  width: 260px;
+  position: absolute;
+  top: 130px;
+  left: 0px;
+}
+
+.image4Mat {
+  background-color: #709b6b;
+  width: 260px;
+  height: 260px;
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  z-index: 0;
+}
+
+.journeyText {
+  width: 75%;
+  padding: 100px 0px 40px 80px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+/* Section yellow House */
+.yellowHouse {
+  background-image: url("../assets/home-image-5.jpg");
+  background-color: #f6f6f6;
+  border: 0px;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Section three picture gallery */
+.threeImages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 400px;
+  margin: 75px 0px 75px 0px;
+  padding: 0px;
+}
+.threeImages img {
+  width: 380px;
+  height: 380px;
+}
+
+/* ---Blog Sections---*/
+main {
+  background-color: #f6f6f6;
+  margin-bottom: -20px;
+}
+
+.blogContainer {
+  height: auto;
+  margin: 0px auto;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside {
+  width: 30%;
+}
+
+.blogMain {
+  width: 70%;
+  margin: 0px;
+}
+
+.aboutAuthor,
+.recentPosts,
+.myDestinations,
+.post1,
+.post2 {
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.aboutAuthor img,
+.recentPosts img,
+.myDestinations img,
+.post1 img,
+.post2 img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.aboutAuthor li,
+.recentPosts li,
+.myDestinations li,
+.post1 li,
+.post2 li {
+  list-style-type: disc;
+}
+.aboutAuthor li a,
+.recentPosts li a,
+.myDestinations li a,
+.post1 li a,
+.post2 li a {
+  color: #1f1f1f;
+}
+.aboutAuthor h3,
+.recentPosts h3,
+.myDestinations h3,
+.post1 h3,
+.post2 h3 {
+  margin-top: 0px;
+}
+
+.aboutAuthor img {
+  width: 100%;
+}
+
+.post1,
+.post2 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.post1 .imagePost,
+.post2 .imagePost {
+  width: 15%;
+  margin-top: 15px;
+}
+.post1 article,
+.post2 article {
+  width: 85%;
+}
+
+.myDestinations,
+.post2 {
+  border-bottom: 5px solid #709b6b;
+}
+
+.expand,
+.expandText {
+  visibility: hidden;
+}
+
+.blogForm {
+  height: 700px;
+}
+.blogForm input,
+.blogForm #commentBox {
+  width: 95%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 0px;
+}
+.blogForm .nameEmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 98%;
+  height: 80px;
+  margin: 30px 10px;
+}
+.blogForm .nameEmail .nameInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  height: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.blogForm .nameEmail .nameInput input {
+  height: 80px;
+  padding-left: 20px;
+}
+.blogForm button {
+  margin: 25px;
+  width: 95%;
+}
+
+.commentInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.commentInput #commentBox {
+  height: 400px;
+  padding: 40px 20px;
+}
+
+/* ----------------Contact Sections---------------*/
+.contactBody {
+  background-color: #f6f6f6;
+  margin: 0px;
+}
+
+.bodyContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.bodyContainer .contactInfo {
+  width: 33%;
+}
+.bodyContainer .form {
+  width: 66%;
+}
+
+.contactInfo {
+  background-color: white;
+  height: 400px;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.socialContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding: 0px;
+}
+.socialContainer li {
+  margin: 10px;
+}
+.socialContainer img {
+  width: 40px;
+  height: 40px;
+}
+
+.contactEmail {
+  color: #1f1f1f;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 35px;
+}
+
+.contactAddressBox {
+  padding: 5px 25px;
+  line-height: 1.5rem;
+}
+
+.copyrite {
+  background-color: #1f1f1f;
+}
+
+.footerNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 600px;
+  padding: 50px 0px;
+  margin: 0px;
+}
+.footerNav li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 50%;
+  position: relative;
+}
+.footerNav li .footerText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.footerNav li .footerText h3 {
+  margin: 10px 0px 5px 20px;
+  -webkit-transition: font-size 0.2s 0.2s;
+  transition: font-size 0.2s 0.2s;
+}
+.footerNav li .footerText h3:hover,
+.footerNav li .footerText h3:focus {
+  font-size: 1.9rem;
+}
+.footerNav li .footerText p {
+  margin-left: 20px;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e4a436;
+}
+.icon img {
+  height: 24px;
+  width: 24px;
+  margin-top: 10px;
+}
+
+.copyrite p {
+  color: #f6f6f6;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
 /*---media query for 320px width mobile device */
 @media (max-width: 390px) {
   h1 {
@@ -1067,547 +1682,4 @@ a {
   .icon {
     display: none;
   }
-}
-.wrapper {
-  max-width: 1440px;
-  width: 80%;
-  margin: 0 auto;
-}
-
-li {
-  list-style: none;
-}
-
-button {
-  background-color: #e4a436;
-  padding: 10px 20px;
-}
-
-button:hover,
-button:focus {
-  border: 3px solid #345231;
-}
-
-.matContainer {
-  position: relative;
-}
-
-header {
-  background-color: #345231;
-  margin: -20px;
-}
-
-.indexHeader {
-  height: 850px;
-}
-
-.headingContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-  height: 650px;
-}
-.headingContainer h1 {
-  padding-left: 130px;
-}
-
-.circleContainer {
-  width: 170px;
-  height: 170px;
-  position: absolute;
-  top: 235px;
-  left: 70px;
-}
-.circleContainer img {
-  width: 123px;
-}
-
-.headerImageContainer {
-  width: 500px;
-  height: 700px;
-  position: absolute;
-  right: 0px;
-  top: 75px;
-  z-index: 2;
-}
-.headerImageContainer img {
-  width: 100%;
-}
-
-.image1Mat {
-  background-color: white;
-  width: 500px;
-  height: 700px;
-  position: absolute;
-  right: -20px;
-  top: 90px;
-  z-index: 1;
-}
-
-/* Blog and Contact Header Styles */
-.blogHeaderBody {
-  background-image: url(../assets/blog-image-1.jpg);
-}
-
-.contactHeaderBody {
-  background-image: url(../assets/contact-image-1.jpg);
-}
-
-.blogHeaderBody,
-.contactHeaderBody {
-  height: 400px;
-  width: 100%;
-  margin-bottom: 20px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-.blogHeaderBody h1,
-.contactHeaderBody h1 {
-  font-size: 4.3rem;
-  margin-bottom: 15px;
-}
-
-nav {
-  background-color: #345231;
-}
-
-#expandNav {
-  visibility: hidden;
-}
-
-.navFlexContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 10px 0px 10px 0px;
-}
-.navFlexContainer li {
-  margin: 20px 20px;
-}
-.navFlexContainer li a:hover {
-  color: #e4a436;
-}
-.navFlexContainer li h2 {
-  font-size: 1.8rem;
-  color: #f6f6f6;
-  margin: 0px 15px;
-}
-.navFlexContainer li h2:hover {
-  color: #e4a436;
-}
-
-/* Section Who Is Willow */
-.whoSection,
-.journey,
-footer {
-  background-color: #f6f6f6;
-  position: relative;
-}
-
-/* Section Who Is Willow */
-.whoIsWillow {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 450px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-/* favourite things and Bucket List*/
-.favouriteBucket {
-  height: 800px;
-}
-
-.favouriteBucket,
-.yellowHouse,
-.threeGallery {
-  background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.thingsList {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.image2Container,
-.image3Container,
-.favouriteThings,
-.bucketList {
-  width: 50%;
-  height: 50%;
-}
-
-.image2Mat,
-.image3Mat {
-  width: 800px;
-  height: 400px;
-  position: absolute;
-  z-index: 1;
-}
-
-.image2Mat {
-  background-color: #709b6b;
-  top: -20px;
-  left: -160px;
-}
-
-.image3Mat {
-  background-color: #345231;
-  top: -250px;
-  right: -160px;
-}
-
-.bridgeImageContainer {
-  position: relative;
-}
-.bridgeImageContainer img {
-  position: absolute;
-  top: -40px;
-  left: -20px;
-  z-index: 1;
-}
-
-.lillyImageContainer {
-  position: relative;
-}
-.lillyImageContainer img {
-  position: absolute;
-  top: 80px;
-  right: 20px;
-  z-index: 2;
-}
-
-.favouriteThings {
-  padding: 70px 10px 5px 90px;
-}
-
-.bucketList {
-  padding-right: 130px;
-  padding-top: 50px;
-  text-align: right;
-}
-.bucketList button {
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-}
-
-/* journey section*/
-.journey {
-  height: 500px;
-  z-index: 0;
-}
-
-.journeyContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.journeyImageContainer img {
-  width: 260px;
-  position: absolute;
-  top: 130px;
-  left: 0px;
-}
-
-.image4Mat {
-  background-color: #709b6b;
-  width: 260px;
-  height: 260px;
-  position: absolute;
-  top: 150px;
-  left: 20px;
-  z-index: 0;
-}
-
-.journeyText {
-  width: 75%;
-  padding: 100px 0px 40px 80px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-/* Section yellow House */
-.yellowHouse {
-  background-image: url("../assets/home-image-5.jpg");
-  background-color: #f6f6f6;
-  border: 0px;
-  height: 400px;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-/* Section three picture gallery */
-.threeImages {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 400px;
-  margin: 75px 0px 75px 0px;
-  padding: 0px;
-}
-.threeImages img {
-  width: 380px;
-  height: 380px;
-}
-
-/* ---Blog Sections---*/
-main {
-  background-color: #f6f6f6;
-  margin-bottom: -20px;
-}
-
-.blogContainer {
-  height: auto;
-  margin: 0px auto;
-  padding-top: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-aside {
-  width: 30%;
-}
-
-.blogMain {
-  width: 70%;
-  margin: 0px;
-}
-
-.aboutAuthor,
-.recentPosts,
-.myDestinations,
-.post1,
-.post2 {
-  background-color: white;
-  padding: 30px;
-  margin: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-.aboutAuthor img,
-.recentPosts img,
-.myDestinations img,
-.post1 img,
-.post2 img {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.aboutAuthor li,
-.recentPosts li,
-.myDestinations li,
-.post1 li,
-.post2 li {
-  list-style-type: disc;
-}
-.aboutAuthor li a,
-.recentPosts li a,
-.myDestinations li a,
-.post1 li a,
-.post2 li a {
-  color: #1f1f1f;
-}
-.aboutAuthor h3,
-.recentPosts h3,
-.myDestinations h3,
-.post1 h3,
-.post2 h3 {
-  margin-top: 0px;
-}
-
-.aboutAuthor img {
-  width: 100%;
-}
-
-.post1,
-.post2 {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-.post1 .imagePost,
-.post2 .imagePost {
-  width: 15%;
-  margin-top: 15px;
-}
-.post1 article,
-.post2 article {
-  width: 85%;
-}
-
-.myDestinations,
-.post2 {
-  border-bottom: 5px solid #709b6b;
-}
-
-.expand,
-.expandText {
-  visibility: hidden;
-}
-
-.blogForm {
-  height: 700px;
-}
-.blogForm input,
-.blogForm #commentBox {
-  width: 95%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border: 0px;
-}
-.blogForm .nameEmail {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 98%;
-  height: 80px;
-  margin: 30px 10px;
-}
-.blogForm .nameEmail .nameInput {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 95%;
-  height: 60px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.blogForm .nameEmail .nameInput input {
-  height: 80px;
-  padding-left: 20px;
-}
-.blogForm button {
-  margin: 25px;
-  width: 95%;
-}
-
-.commentInput {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.commentInput #commentBox {
-  height: 400px;
-  padding: 40px 20px;
-}
-
-/* ----------------Contact Sections---------------*/
-.contactBody {
-  background-color: #f6f6f6;
-  margin: 0px;
-}
-
-.bodyContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 100px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-.bodyContainer .contactInfo {
-  width: 33%;
-}
-.bodyContainer .form {
-  width: 66%;
-}
-
-.contactInfo {
-  background-color: white;
-  height: 400px;
-  padding: 30px;
-  margin-top: 30px;
-}
-
-.socialContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  padding: 0px;
-}
-.socialContainer li {
-  margin: 10px;
-}
-.socialContainer img {
-  width: 40px;
-  height: 40px;
-}
-
-.contactEmail {
-  color: #1f1f1f;
-  font-weight: bold;
-  display: block;
-  margin-bottom: 35px;
-}
-
-.contactAddressBox {
-  padding: 5px 25px;
-  line-height: 1.5rem;
 }
