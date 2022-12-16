@@ -409,10 +409,6 @@ nav {
   background-color: #345231;
 }
 
-#expandNav {
-  visibility: hidden;
-}
-
 .navFlexContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -967,13 +963,6 @@ aside {
     margin-top: 20PX;
     position: relative;
   }
-  #expandNav {
-    visibility: visible;
-    position: absolute;
-    top: 10px;
-    left: -3px;
-    opacity: 0;
-  }
   .material-symbols-outlined {
     margin-top: 10px;
   }
@@ -1003,13 +992,9 @@ aside {
     font-size: 1rem;
     margin: 0px;
   }
-  #expandNav:checked + .navFlexContainer {
+  .mobileNav {
     -webkit-transform: translateX(-25px);
             transform: translateX(-25px);
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
-    transition: -webkit-transform 0.5s ease-in-out;
-    transition: transform 0.5s ease-in-out;
-    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   }
   .whoIsWillow {
     height: 650px;
@@ -1350,15 +1335,6 @@ aside {
     margin-top: 20PX;
     position: relative;
   }
-  #expandNav {
-    visibility: visible;
-    position: absolute;
-    top: 10px;
-    left: -3px;
-    opacity: 0;
-    width: 30px;
-    height: 30px;
-  }
   .material-symbols-outlined {
     left: -5px;
     top: 0px;
@@ -1391,13 +1367,9 @@ aside {
     font-size: 1rem;
     margin: 0px;
   }
-  #expandNav:checked + .navFlexContainer {
+  .mobileNav {
     -webkit-transform: translateX(-25px);
             transform: translateX(-25px);
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
-    transition: -webkit-transform 0.5s ease-in-out;
-    transition: transform 0.5s ease-in-out;
-    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   }
   .wrapper {
     width: 80%;

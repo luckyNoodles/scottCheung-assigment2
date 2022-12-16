@@ -56,13 +56,7 @@
         margin-top: 20PX;
         position: relative;
     }
-    #expandNav {
-        visibility: visible;
-        position: absolute;
-        top: 10px;
-        left: -3px;
-        opacity: 0;
-    }
+
     .material-symbols-outlined {
         margin-top: 10px;
     }
@@ -83,10 +77,10 @@
             }
         }
     }
-    #expandNav:checked+.navFlexContainer {
+        .mobileNav {  
         transform: translateX(-25px);
-        transition: transform 0.5s ease-in-out;
-    }
+        }
+
     .whoIsWillow {
         height: 650px;
         margin-top: 20px;
@@ -387,15 +381,7 @@
         margin-top: 20PX;
         position: relative;
     }
-    #expandNav {
-        visibility: visible;
-        position: absolute;
-        top: 10px;
-        left: -3px;
-        opacity: 0;
-        width: 30px;
-        height: 30px;
-    }
+
     .material-symbols-outlined {
         left: -5px;
         top: 0px;
@@ -419,9 +405,8 @@
             }
         }
     }
-    #expandNav:checked+.navFlexContainer {
+    .mobileNav {
         transform: translateX(-25px);
-        transition: transform 0.5s ease-in-out;
     }
     .wrapper {
         width: 80%;
