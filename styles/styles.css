@@ -614,8 +614,7 @@ footer {
   padding: 0px;
 }
 .threeImages img {
-  width: 380px;
-  height: 380px;
+  width: 350px;
 }
 
 /* ---Blog Sections---*/
@@ -914,7 +913,7 @@ aside {
     width: 100%;
   }
   .indexHeader {
-    height: 360px;
+    height: 380px;
   }
   .headingContainer {
     display: -webkit-box;
@@ -923,10 +922,6 @@ aside {
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: relative;
     height: 50px;
   }
   .headingContainer h1 {
@@ -935,16 +930,12 @@ aside {
   }
   .headerImageContainer {
     width: 200px;
-    position: absolute;
     right: 20px;
-    top: 90px;
-    z-index: 2;
   }
   .headerImageContainer img {
     width: 100%;
   }
   .circleContainer {
-    width: 55px;
     top: -15px;
     left: 90px;
   }
@@ -952,13 +943,10 @@ aside {
     width: 55px;
   }
   .image1Mat {
-    background-color: white;
     width: 200px;
     height: 280px;
-    position: absolute;
     right: 10px;
     top: 100px;
-    z-index: 1;
   }
   /* Blog section */
   .blogHeaderBody,
@@ -985,13 +973,8 @@ aside {
     top: 10px;
     left: -3px;
     opacity: 0;
-    width: 30px;
-    height: 30px;
   }
   .material-symbols-outlined {
-    left: -5px;
-    top: 0px;
-    z-index: 10;
     margin-top: 10px;
   }
   .navFlexContainer {
@@ -1028,12 +1011,9 @@ aside {
     transition: transform 0.5s ease-in-out;
     transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   }
-  .wrapper {
-    width: 80%;
-  }
   .whoIsWillow {
     height: 650px;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .whoIsWillow h2 {
     font-size: 1.4rem;
@@ -1139,7 +1119,6 @@ aside {
   }
   .yellowHouse {
     height: 220px;
-    background-size: 220%;
   }
   .threeImages {
     height: auto;
@@ -1329,7 +1308,7 @@ aside {
     height: 224px;
     position: absolute;
     right: 20px;
-    top: 90px;
+    top: 110px;
     z-index: 2;
   }
   .headerImageContainer img {
@@ -1349,7 +1328,7 @@ aside {
     height: 215px;
     position: absolute;
     right: 10px;
-    top: 100px;
+    top: 120px;
     z-index: 1;
   }
   /* Blog section */
@@ -1425,6 +1404,7 @@ aside {
   }
   .whoIsWillow {
     height: 750px;
+    margin-top: 20px;
   }
   .whoIsWillow h2 {
     font-size: 1.4rem;
