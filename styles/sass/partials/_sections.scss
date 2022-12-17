@@ -148,8 +148,9 @@ main {
 aside {
     width: 30%;
 }
-.blogMain {
-    width: 70%;
+.blogMain,
+.blogForm {
+    width: 100%;
     margin:  0px;
 }
 .aboutAuthor,
@@ -178,6 +179,10 @@ aside {
 }
 .aboutAuthor img {
     width: 100%;   
+}
+.rightSide {
+    display: flex;
+    flex-direction: column;
 }
 .post1,
 .post2 {

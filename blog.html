@@ -67,6 +67,7 @@
                         </ul>
                     </div>
                 </aside> <!-- end of Aside -->
+             <section class="rightSide">
                 <section class="blogMain">
                     <article class="myDestinations">
                         <input type="checkbox" id="expandText" class="expand">
@@ -111,6 +112,7 @@
                         </div>
                         <label for="expandText" class="expandText">More / Less</label>
                     </article>
+
                     <article class="post1">
                         <div class="imagePost">
                             <img src="./assets/blog-image-3.jpg" alt="picture of author">
@@ -136,7 +138,9 @@
                             minus cupiditate dolor, cum quam quaerat dolore vero aperiam eos perspiciatis autem!</p>
                         </article>
                     </article>
-                    <form action="post" class="blogForm">
+                </section>
+                <section>
+                    <form action="submit" class="blogForm">
                        <Div class="nameEmail">
                             <div class="nameInput">
                                 <label for="name"></label>
@@ -151,9 +155,10 @@
                             <label for="commentBox"></label>
                             <textarea type="textarea" id="commentBox" placeholder="Comment"></textarea>
                         </div>
-                        <button>Post Comment</button>
+                        <button id="postButton" type="submit">Post Comment</button>
                     </form>
                 </section>
+            </section>
             </div>
         </div>
     </main>
